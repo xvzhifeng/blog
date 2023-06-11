@@ -8,9 +8,9 @@ for /f "delims=" %%i in (name.txt) do (
     set a=%%i
 	echo !a!
 		echo ..........................enter into !a! ..........................
-		dir . /a-d /b |findstr /i /v "docs .git" > .\files.txt
+		dir . /a-d /b |findstr /i /v "docs .git CNAME" > .\files.txt
 		rem 删除属性为非目录文件( a-d),文件名不是appsettings.json的文件
-		dir . /ad /b |findstr /i /v "docs .git" > .\folders.txt
+		dir . /ad /b |findstr /i /v "docs .git CNAME" > .\folders.txt
 		rem 删除属性为目录文件(ad),文件名不是appsettings.json的文件
 		echo ..........................exit from !a!  ..........................
 		@REM cd ..
