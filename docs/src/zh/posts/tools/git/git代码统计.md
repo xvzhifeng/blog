@@ -1,7 +1,7 @@
 ---
 title: git代码统计
 date: 2023-06-11 18:32:07
-catagery: 
+category: 
   - tools
   - git
 tag: 

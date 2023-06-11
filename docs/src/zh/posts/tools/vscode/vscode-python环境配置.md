@@ -1,7 +1,7 @@
 ---
 title: vscode-python环境配置
 date: 2023-06-11 18:33:08
-catagery: 
+category: 
   - tools
   - vscode
 tag: 
