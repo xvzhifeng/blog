@@ -35,3 +35,9 @@ echo %cd%
 xcopy .\docs\src\.vuepress\dist .\ /e /y /h /r /q
 
 pause
+
+git add .
+
+git commit -m "update"
+
+git push

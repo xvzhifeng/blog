@@ -20,7 +20,10 @@ export default hopeTheme({
 
   repo: "xvzhifeng/blog",
 
-  docsDir: "src",
+  docsDir: "docs/src",
+  docsBranch: "master",
+
+  // docsDir: "src",
 
   blog: {
     medias: {
@@ -77,7 +80,7 @@ export default hopeTheme({
 
       blog: {
         description: "A wild programmer",
-        intro: "/intro.html",
+        intro: "/zh/intro.html",
       },
 
       metaLocales: {

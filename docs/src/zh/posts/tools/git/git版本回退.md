@@ -1,3 +1,12 @@
+---
+title: git版本回退
+date: 2023-06-11 18:32:07
+catagery: 
+  - tools
+  - git
+tag: 
+  - git
+---
 ### git 版本回退
 
 #### 1.找到想要回退的版本
