@@ -1,6 +1,6 @@
 ---
 title: idea清除缓存
-date: 2023-06-12 01:46:15
+date: 2023-06-12 01:47:40
 category: 
   - tools
   - idea
@@ -24,3 +24,4 @@ tag:
 
 ![image-20210604111220710](https://raw.githubusercontent.com/xvzhifeng/picture/main/ImgTypora/20210604111220.png)
 
+- 在这里可以清除文件系统的缓存和索引之类的信息

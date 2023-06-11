@@ -1,6 +1,6 @@
 ---
 title: 添加vm启动参数
-date: 2023-06-12 01:46:15
+date: 2023-06-12 01:47:40
 category: 
   - tools
   - idea
@@ -18,3 +18,4 @@ tag:
 
 ![image-20210607140843850](https://raw.githubusercontent.com/xvzhifeng/picture/main/ImgTypora/20210607140844.png)
 
+打开可以看到modify options 下面有个add vm options点击添加就可以了。

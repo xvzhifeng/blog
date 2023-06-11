@@ -19,12 +19,12 @@ for /f "delims=" %%i in (name.txt) do (
 		del /q .\files.txt .\folders.txt
     
 )
-pause
+@REM pause
 
 cd docs
 
 call yarn docs:build
-pause
+@REM pause
 
 cd ..
 
@@ -34,7 +34,7 @@ echo %cd%
 
 xcopy .\docs\src\.vuepress\dist .\ /e /y /h /r /q
 
-pause
+@REM pause
 
 git add .
 
