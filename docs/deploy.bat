@@ -1,5 +1,8 @@
 @echo off
 SETLOCAL ENABLEDELAYEDEXPANSION
+
+call add-md-metadata.exe ./src/zh/posts
+pause
 cd ..
 
 dir . /b  > name.txt
