@@ -26,7 +26,7 @@ for /f "delims=" %%i in (name.txt) do (
 
 cd docs
 
-call npm docs:build
+call npm run docs:build
 @REM pause
 
 cd ..
