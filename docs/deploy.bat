@@ -1,7 +1,7 @@
 @echo off
 SETLOCAL ENABLEDELAYEDEXPANSION
 
-call add-md-metadata.exe ./src/zh/posts
+call add-md-metadata.exe ./src/zh
 pause
 cd ..
 
