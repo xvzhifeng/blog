@@ -26,7 +26,7 @@ for /f "delims=" %%i in (name.txt) do (
 
 cd docs
 
-call yarn docs:build
+call npm run docs:build
 @REM pause
 
 cd ..
@@ -39,8 +39,8 @@ xcopy .\docs\src\.vuepress\dist .\ /e /y /h /r /q
 
 @REM pause
 
-git add .
+@REM git add .
 
-git commit -m "update"
+@REM git commit -m "update"
 
-git push origin master
+@REM git push origin master
