@@ -39,8 +39,8 @@ xcopy .\docs\src\.vuepress\dist .\ /e /y /h /r /q
 
 @REM pause
 
-@REM git add .
+git add .
 
-@REM git commit -m "update"
+git commit -m "update"
 
-@REM git push origin master
+git push origin master
